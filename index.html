@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#124735" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="title" content="readingmomo bookbuckets" />
+    <meta name="description" content="readingmomo bookbuckets" />
+    <meta property="og:title" content="readingmomo bookbuckets" />
+    <meta property="og:description" content="readingmomo bookbuckets" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="https://i.ibb.co/3k60mhS/specific.png" />
+    <meta property="og:site_name" content="readingmomo bookbuckets" />
+    <meta property="og:type" content="article" />
+    <title>readingmomo bookbuckets</title>
+    <link rel="icon" href="../img/favicon.png" type="image/png" sizes="16x20" />
+    <link rel="stylesheet" href="../dependencies/bootstrap.min.css" />
+    <link rel="stylesheet" src="../styles/style.css" href="../styles/style.css" />
+    <script type="text/javascript" src="../dependencies/jquery.min.js"></script>
+</head>
+
+<body data-instant-intensity="viewport">
+    <!-- navbar -->
+    <div id="navbarSet"></div>
+    <script src="../components/navbar.js"></script>
+    <!-- navbar -->
+    <div class="jumbotron mb-0" id="banner">
+        <div class="banner-text text-center">
+        <h2 class="text-center display text-success font-weight-bold">
+       Learn anything with
+        </h2>
+        <br>
+        <p class="text-center ">
+        <img src="../img/website logo.png" style="width:50%" class="d-none d-xl-block mx-auto" alt="">
+        <img src="../img/website logo.png" style="width:50%" class="d-none d-lg-block d-xl-none mx-auto" alt="">
+        <img src="../img/website logo.png" style="width:70%" class="d-none d-md-block d-lg-none mx-auto" alt="">
+        <img src="../img/website logo.png" style="width:100%" class="d-none d-sm-block d-md-none mx-auto" alt="">
+        <img src="../img/website logo.png" style="width:100%" class="d-block d-sm-none" alt="">
+        </p>
+        <h5 class="mt-5 text-center text-success font-weight-bolder">
+        Claim your digital book bucket for only ₱100!
+        </h5>
+        <h6 class="mt-3 text-secondary text-secondary">
+       Lifetime access. Updated regularly.
+        </h6>
+        <br>
+        <a class="btn-lg btn btn-success text-white border border-white rounded" href="#gallery">Choose your bucket</a>
+        </div>
+    </div>
+    <div class="divider mt-0"  id="gallery"></div>
+    <br>
+
+    <div class="container">
+
+        <h3 class="text-success font-weight-bolder text-center">Book Buckets</h3>
+        
+        <!-- fundGallery steins api -->
+        <div data-stein-url="https://api.steinhq.com/v1/storages/5fc440c7f62b6004b3eb635a/index" class="row mt-4" id="buckets">
+            <div class="col-lg-4 col-md-6 mb-3">
+                <div class="card border h-100">
+                    <div class="text-center">
+                        <img src="{{imageurl}}" alt="{{name}}" class="previewimg" class="mt-3">
+                    </div>
+                    <h5 class="mt-3 mb-3 font-weight-bold text-success text-center">{{name}}</h5>
+                    <p class="px-3 mb-3">{{target}}</p>
+                <p class="text-justify text-dark px-3"><small>{{description}}</small></p>
+                <p class="text-justify claimHeader px-3">Contains {{totalcount}}+ book titles</p>
+                <small class="px-3 mb-3 text-secondary">Featured titles: {{samplebook1}}, {{samplebook2}}, {{samplebook3}}</small>
+                <a class="btn mb-2 px-1 ml-4 mr-4 text-white btn-success" href="./buckets/{{index}}.html">View this bucket 📚</a>
+            </div>
+        </div>
+        <script src="../dependencies/stein-expedite.js"></script>
+        <!-- fundGallery steins api -->     
+    </div>
+    <h4 class="text-success font-weight-bolder text-center">More book buckets coming soon!</h4>
+</div>
+
+    <!-- footer -->
+    <div id="footer"></div>
+    <script src="./components/footer.js"></script>
+    <!-- footer -->
+
+    <!-- cookie consent -->
+    <div id="cookieconsent"></div>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <script src="./js/cookieconsent.js"></script>
+    <!-- cookie consent -->
+    <script src="./js/tagIdentify.js"></script>
+    <script src="./js/validator.js"></script>
+    <script src="./js/lazysizes.min.js"></script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG4287G" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/b2291eba76.js"></script>
+    <script src="//instant.page/3.0.0" type="module" defer
+        integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+</body>
+
+</html>
