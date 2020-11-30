@@ -5,9 +5,9 @@ const genInq = document.createElement('div');
 
 // create the sticky btn and modal component
 genInq.innerHTML = `
-  <button id="sticky" class="btn rfbtn text-white btn-lg mt-3 sticky" data-toggle="modal" data-target="#inquireform">
+  <a href="https://forms.gle/cjvma9i19XKqzCdc9" id="sticky" class="btn rfbtn text-white btn-lg mt-3 sticky" target="_blank">
   Grab this bucket!
-  </button>
+  </a>
   `;
 
 //append component to host page
