@@ -6,7 +6,7 @@ const genInq = document.createElement('div');
 // create the sticky btn and modal component
 genInq.innerHTML = `
   <a href="https://forms.gle/cjvma9i19XKqzCdc9" id="sticky" class="btn rfbtn text-white btn-lg mt-3 sticky" target="_blank">
-  Grab this bucket!
+  Grab this bucket! 🛒
   </a>
   `;
 
