@@ -17,6 +17,9 @@ navbar.innerHTML = `
 				<ul class="navbar-nav ml-auto order-2">
 						<li class="nav-item"><a class="nav-link" href="../">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="../index.html#buckets">Book Buckets</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://forms.gle/p4Xz4EkFwXP2zKRt7" target="_blank">Order Now!</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://facebook.com/readingmomobooks" target="_blank">Facebook</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://m.me/readingmomobooks" target="_blank">Contact Us</a></li>
 				</ul>	
 		</div>
 </div>
